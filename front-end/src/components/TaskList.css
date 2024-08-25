@@ -1,0 +1,15 @@
+.task-list-header {
+    display: flex;
+    justify-content: space-between; /* Align items on the edges */
+    align-items: center; /* Vertically center items */
+    margin-bottom: 1rem; /* Space below the header */
+  }
+  
+  .task-list-header h2 {
+    margin: 0; /* Remove default margin from heading */
+  }
+  
+  .task-list-header .btn {
+    margin: 0; /* Ensure no extra margin around the button */
+  }
+  

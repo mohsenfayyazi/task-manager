@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": ["es2023"],
+    "module": "commonjs",
+    "target": "es2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "rootDir": "./", // Include both src and tests directories
+    "baseUrl": "./",
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"], // Include both source and test files
+  "exclude": ["node_modules", "build"] // Exclude directories not needed for compilation
+}

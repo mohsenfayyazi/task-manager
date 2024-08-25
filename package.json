@@ -1,0 +1,11 @@
+
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix back-end\" \"npm start --prefix front-end\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
